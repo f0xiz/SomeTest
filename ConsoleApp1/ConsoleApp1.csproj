@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DM.Extensions\DM.Extensions\DM.Extensions\DM.Extensions.csproj">
+      <Project>{5b6dfa08-b260-4e40-9d87-e89c56dec912}</Project>
+      <Name>DM.Extensions</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
