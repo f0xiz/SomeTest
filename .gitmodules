@@ -1,0 +1,3 @@
+[submodule "DM.Extensions"]
+	path = DM.Extensions
+	url = https://github.com/dima-matsola/DM.Extensions.git
